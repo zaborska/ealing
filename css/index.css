@@ -5,7 +5,8 @@ body {
 header nav {
   background: #030303; }
   header nav ul {
-    display: flex; }
+    display: flex;
+    margin: 0; }
     header nav ul li {
       line-height: 44px;
       font-size: 13px;
@@ -15,7 +16,36 @@ header nav {
       header nav ul li a {
         color: #ffffff; }
         header nav ul li a:hover {
-          color: #ffffff;
+          color: grey;
           text-decoration: none; }
+
+.search-block {
+  background-image: linear-gradient(to right, #11998e, #008851);
+  padding: 48px 0 68px 0; }
+  .search-block h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 27px; }
+  .search-block .search {
+    display: flex;
+    max-width: 714px;
+    background: white;
+    margin: auto; }
+    .search-block .search input {
+      border: none;
+      outline: none;
+      -webkit-appearance: none;
+      flex: 1;
+      padding-left: 15px;
+      font-size: 22px; }
+    .search-block .search .btn-color {
+      margin: 12px;
+      background: #4db173;
+      color: #ffffff;
+      border-radius: 0;
+      padding: 16px 44px;
+      font-size: 20px;
+      font-weight: 700; }
 
 /*# sourceMappingURL=index.css.map */
