@@ -38,3 +38,58 @@
     }
   }
 }
+
+.task-block {
+  padding: 45px 0px 60px 0;
+
+  h2 {
+    color: $text-color;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 39px;
+  }
+
+  .task {
+    height: 202px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $gradient-right-color;
+    background-image: linear-gradient(
+      to bottom right,
+      $gradient-right-color,
+      $gradient-left-color
+    );
+    transition: background ease 0.3s;
+    margin-bottom: 22px;
+
+    &:hover {
+      background: #22584b;
+    }
+
+    .task-title {
+      text-align: center;
+
+      h3 {
+        color: $main-font;
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 16px;
+      }
+
+      button {
+        border: 2px solid $main-font;
+        background: $btn-bg-dark;
+        padding: 11px 42px;
+        color: $main-font;
+        font-size: 14px;
+        transition: all ease 0.3s;
+
+        &:hover {
+          background-color: $main-font;
+          color: $btn-bg-dark;
+        }
+      }
+    }
+  }
+}
