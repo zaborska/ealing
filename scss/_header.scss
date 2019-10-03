@@ -1,0 +1,23 @@
+header {
+  nav {
+    background: $bg-nav;
+    ul {
+      display: flex;
+      li {
+        line-height: 44px;
+        font-size: 13px;
+        margin-left: 33px;
+        &:first-child {
+          margin-left: 47px;
+        }
+        a {
+          color: $main-font;
+          &:hover {
+            color: $main-font;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

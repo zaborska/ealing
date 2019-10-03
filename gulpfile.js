@@ -31,7 +31,7 @@ gulp.task("sass:watch", function() {
 });
 
 gulp.task("template:watch", function() {
-  gulp.watch("./pages/**/*.html", gulp.series("template"));
+  gulp.watch("./templates/**/*.html", gulp.series("template"));
 });
 
 gulp.task(

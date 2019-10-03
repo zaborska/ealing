@@ -1,2 +1,21 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px; }
+
+header nav {
+  background: #030303; }
+  header nav ul {
+    display: flex; }
+    header nav ul li {
+      line-height: 44px;
+      font-size: 13px;
+      margin-left: 33px; }
+      header nav ul li:first-child {
+        margin-left: 47px; }
+      header nav ul li a {
+        color: #ffffff; }
+        header nav ul li a:hover {
+          color: #ffffff;
+          text-decoration: none; }
 
 /*# sourceMappingURL=index.css.map */
