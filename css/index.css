@@ -10,6 +10,10 @@ a {
   a:hover {
     color: inherit; }
 
+.text-small {
+  font-size: 12px;
+  color: #272727; }
+
 .btn {
   background: #4db173;
   color: #ffffff;
@@ -52,8 +56,7 @@ a {
   position: relative;
   display: block;
   padding-left: 30px;
-  cursor: pointer;
-  vertical-align: middle; }
+  cursor: pointer; }
   .magic-radio + label:hover:before,
   .magic-checkbox + label:hover:before {
     animation-duration: 0.4s;
@@ -104,6 +107,43 @@ a {
 .magic-radio:checked + label:after,
 .magic-checkbox:checked + label:after {
   display: block; }
+
+.btn-step {
+  display: flex;
+  justify-content: center; }
+  .btn-step button {
+    border: 1px solid #4db173;
+    border-radius: 15px;
+    padding: 66px 37px 15px 37px;
+    border-top: none;
+    margin-top: -50px;
+    color: #4db173;
+    font-size: 14px;
+    font-weight: 700px; }
+
+.text-h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #010101;
+  text-align: center;
+  margin: 40px 0 20px 0; }
+
+.register-info {
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+  color: #272727;
+  max-width: 511px;
+  padding-bottom: 30px; }
+
+form label.control-label {
+  display: block;
+  margin-bottom: 4px; }
+
+form input.form-control {
+  border: 2px solid #4db173;
+  height: 36px;
+  border-radius: 0; }
 
 .magic-radio + label:before {
   border-radius: 50%; }
@@ -295,19 +335,6 @@ footer nav {
       color: #4db173;
       font-size: 14px;
       font-weight: 700px; }
-  .wrapper-register h2 {
-    font-size: 30px;
-    font-weight: 700;
-    color: #010101;
-    text-align: center;
-    margin: 40px 0 20px 0; }
-  .wrapper-register .register-info {
-    text-align: center;
-    margin: auto;
-    font-size: 20px;
-    color: #272727;
-    max-width: 511px;
-    padding-bottom: 30px; }
   .wrapper-register .register-form-info p {
     font-size: 16px;
     color: #353535; }
@@ -351,5 +378,42 @@ footer nav {
       border-bottom: 10px solid transparent;
       border-right: 16px solid #236a3e;
       left: -16px; }
+
+.wrapper-sign-in {
+  padding-bottom: 100px; }
+  .wrapper-sign-in img {
+    margin: 12px 0 19px 0; }
+  .wrapper-sign-in .text-h2 {
+    margin-top: 0; }
+  .wrapper-sign-in .forgot-password-block {
+    margin-top: 5px;
+    margin-bottom: 38px; }
+  .wrapper-sign-in .social-btn {
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 12px;
+    text-align: left;
+    background: none;
+    border: none;
+    padding: 10px; }
+    .wrapper-sign-in .social-btn img {
+      max-height: 25px;
+      margin: 0;
+      margin-right: 10px; }
+    .wrapper-sign-in .social-btn.ms-social, .wrapper-sign-in .social-btn.google-social {
+      border: 1px solid #707070;
+      color: #353535; }
+    .wrapper-sign-in .social-btn.fb-social {
+      background-color: #4e71a8;
+      color: white; }
+      .wrapper-sign-in .social-btn.fb-social img {
+        margin-left: 5px;
+        margin-right: 15px; }
+    .wrapper-sign-in .social-btn.li-social {
+      background-color: #1883bb;
+      color: white; }
+      .wrapper-sign-in .social-btn.li-social img {
+        margin-left: 5px;
+        margin-right: 12px; }
 
 /*# sourceMappingURL=index.css.map */
