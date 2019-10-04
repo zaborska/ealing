@@ -1,0 +1,62 @@
+footer {
+  .footer-ealing {
+    background: $footer-bg;
+    display: flex;
+    justify-content: space-between;
+
+    .logo-footer {
+      img {
+        padding: 25px 0 31px 30px;
+      }
+    }
+    .follow-information {
+      display: flex;
+      .border {
+        height: 57px;
+        border-left: 1px solid $footer-border;
+        margin: 40px 53px 31px 0;
+      }
+      .social {
+        color: $main-font;
+        font-size: 12px;
+        font-weight: 700;
+        margin: 40px 136px 72px 0;
+        p {
+          margin: 5px;
+        }
+        .social-icons {
+          display: flex;
+          div {
+            width: 23px;
+            height: 23px;
+
+            background: $main-font;
+            margin-left: 5px;
+          }
+        }
+      }
+    }
+  }
+
+  nav {
+    background: $bg-nav;
+
+    ul {
+      display: flex;
+      margin: 0;
+      padding: 21px 0 28px 30px;
+      li {
+        font-size: 12px;
+        margin-left: 33px;
+
+        a {
+          color: $main-font;
+          &:hover {
+            color: grey;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
