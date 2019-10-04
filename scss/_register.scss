@@ -1,0 +1,54 @@
+.wrapper-register {
+  .btn-step {
+    display: flex;
+    justify-content: center;
+    button {
+      border: 1px solid $btn-bg-color;
+      border-radius: 15px;
+      padding: 66px 37px 15px 37px;
+      border-top: none;
+      margin-top: -50px;
+      color: $btn-bg-color;
+      font-size: 14px;
+      font-weight: 700px;
+    }
+  }
+  h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: $color-header-regiister;
+    text-align: center;
+    margin: 40px 0 20px 0;
+  }
+  .register-info {
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    color: $color-text-register;
+    max-width: 511px;
+    padding-bottom: 30px;
+  }
+
+  .register-form-info {
+    p {
+      font-size: 16px;
+      color: $text-color;
+
+      a {
+        color: $link-color;
+        text-decoration: underline;
+      }
+    }
+  }
+  form {
+    label {
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    button {
+      background: $btn-bg-color;
+      color: $main-bg;
+    }
+  }
+}
