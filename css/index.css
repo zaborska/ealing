@@ -166,4 +166,33 @@ footer nav {
   display: block;
   margin-bottom: 4px; }
 
+.wrapper-register form input {
+  border: 2px solid #4db173;
+  height: 36px;
+  border-radius: 0; }
+
+.wrapper-register form #label-radio {
+  margin-right: 20px; }
+
+.wrapper-register form button {
+  background: #4db173;
+  color: #ffffff;
+  padding: 5px 29px;
+  font-size: 14px;
+  margin-left: 20px;
+  border: 0;
+  border-radius: 0;
+  white-space: nowrap; }
+
+.wrapper-register form .btn-register {
+  display: flex;
+  justify-content: center; }
+
+.wrapper-register form .form-group {
+  margin-bottom: 13px; }
+
+.wrapper-register .hr {
+  border-bottom: 1px solid #a5a2a2;
+  margin: 20px 0; }
+
 /*# sourceMappingURL=index.css.map */

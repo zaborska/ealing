@@ -46,9 +46,39 @@
       margin-bottom: 4px;
     }
 
+    input {
+      border: 2px solid $btn-bg-color;
+      height: 36px;
+      border-radius: 0;
+    }
+
+    #label-radio {
+      margin-right: 20px;
+    }
+
     button {
       background: $btn-bg-color;
-      color: $main-bg;
+      color: $main-font;
+      padding: 5px 29px;
+      font-size: 14px;
+      margin-left: 20px;
+      border: 0;
+      border-radius: 0;
+      white-space: nowrap;
     }
+
+    .btn-register {
+      display: flex;
+      justify-content: center;
+    }
+
+    .form-group {
+      margin-bottom: 13px;
+    }
+  }
+
+  .hr {
+    border-bottom: 1px solid $hr-color;
+    margin: 20px 0;
   }
 }

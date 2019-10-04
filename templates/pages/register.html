@@ -15,21 +15,84 @@
   <div class="container">
     <div class="d-flex justify-content-between register-form-info">
       <p>All fields are mandatory.</p>
-      <p>Already have an account? <a href="">Sign in</a></p>
+      <p>Already have an account? <a href="#">Sign in</a></p>
     </div>
 
     <form action="">
       <div class="row">
         <div class="col-md-8 ">
-          <label for="email">Email address222</label>
+          <label for="email">Email address</label>
           <div class="d-flex ">
-            <input type="email" class="flex-grow-1" />
-            <button>Verify email</button>
+            <input type="email" id="email" class="flex-grow-1 form-control" />
+            <button class="btn">Verify email</button>
           </div>
         </div>
         <div class="col-md-4">
           <div class="my-tooptip">ttttt</div>
         </div>
+      </div>
+
+      <div class="hr"></div>
+
+      <div class="row">
+        <div class="col-md-8 form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" class="btn-block form-control" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8 form-group">
+          <label for="conf-password">Confirm password</label>
+          <input
+            type="password"
+            id="conf-password"
+            class="btn-block form-control"
+          />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8 form-group">
+          <label for="fname">First name</label>
+          <input type="text" id="fname" class="btn-block form-control" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8 form-group">
+          <label for="lname">Last name</label>
+          <input type="text" id="lname" class="btn-block form-control" />
+        </div>
+      </div>
+
+      <p>Are you a personal or business user?</p>
+
+      <div class="row">
+        <div class="col-md-8 d-flex">
+          <input type="radio" />
+          <label for="radio" id="label-radio">Personal</label>
+          <input type="radio" />
+          <label for="radio" id="label-radio">Bussines</label>
+        </div>
+        <div class="col-md-4"></div>
+      </div>
+
+      <div class="inform">
+        I have read, understood and agreed to the council’s
+        <a href="#"> Privacy Policy</a>
+      </div>
+      <div class="inform">
+        I have accepted the<a href="#"> Terms and Conditions</a>
+      </div>
+
+      <div class="btn-register">
+        <button type="button" class="btn btn-primary btn-lg">
+          Cancel
+        </button>
+        <button type="button" class="btn btn-secondary btn-lg">
+          Create account
+        </button>
       </div>
     </form>
   </div>
