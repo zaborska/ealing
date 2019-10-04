@@ -10,6 +10,28 @@ a {
   a:hover {
     color: inherit; }
 
+.btn {
+  background: #4db173;
+  color: #ffffff;
+  padding: 5px 29px;
+  font-size: 14px;
+  border: 0;
+  border-radius: 0;
+  white-space: nowrap; }
+
+.btn-lg {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 14px 47px; }
+
+.btn-secondary {
+  background-color: #a5a2a2; }
+
+.btn-primary {
+  background-color: #4db173; }
+  .btn-primary:active, .btn-primary:hover, .btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #2e6a45; }
+
 @keyframes hover-color {
   from {
     border-color: #c0c0c0; }
@@ -257,93 +279,75 @@ footer nav {
           color: grey;
           text-decoration: none; }
 
-.wrapper-register .btn-step {
-  display: flex;
-  justify-content: center; }
-  .wrapper-register .btn-step button {
-    border: 1px solid #4db173;
-    border-radius: 15px;
-    padding: 66px 37px 15px 37px;
-    border-top: none;
-    margin-top: -50px;
-    color: #4db173;
-    font-size: 14px;
-    font-weight: 700px; }
-
-.wrapper-register h2 {
-  font-size: 30px;
-  font-weight: 700;
-  color: #010101;
-  text-align: center;
-  margin: 40px 0 20px 0; }
-
-.wrapper-register .register-info {
-  text-align: center;
-  margin: auto;
-  font-size: 20px;
-  color: #272727;
-  max-width: 511px;
-  padding-bottom: 30px; }
-
-.wrapper-register .register-form-info p {
-  font-size: 16px;
-  color: #353535; }
-
-.wrapper-register form label {
-  display: block;
-  margin-bottom: 4px; }
-
-.wrapper-register form input {
-  border: 2px solid #4db173;
-  height: 36px;
-  border-radius: 0; }
-
-.wrapper-register form #label-radio {
-  margin-right: 20px; }
-
-.wrapper-register form button {
-  background: #4db173;
-  color: #ffffff;
-  padding: 5px 29px;
-  font-size: 14px;
-  margin-left: 20px;
-  border: 0;
-  border-radius: 0;
-  white-space: nowrap; }
-
-.wrapper-register form .btn-register {
-  display: flex;
-  justify-content: center; }
-
-.wrapper-register form .form-group {
-  margin-bottom: 13px; }
-
-.wrapper-register form .user-radio-group label {
-  margin: 0 20px 0 0; }
-
-.wrapper-register form .register-checkboxes label {
-  font-size: 12px; }
-
-.wrapper-register .hr {
-  border-bottom: 1px solid #a5a2a2;
-  margin: 20px 0; }
-
-.wrapper-register .my-tooptip {
-  background-color: #236a3e;
-  padding: 11px 13px;
-  border-radius: 4px;
-  color: #ffffff;
-  margin-top: 28px;
-  font-size: 12px;
-  position: relative; }
-  .wrapper-register .my-tooptip:before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-right: 16px solid #236a3e;
-    left: -16px; }
+.wrapper-register {
+  padding-bottom: 100px; }
+  .wrapper-register .btn-step {
+    display: flex;
+    justify-content: center; }
+    .wrapper-register .btn-step button {
+      border: 1px solid #4db173;
+      border-radius: 15px;
+      padding: 66px 37px 15px 37px;
+      border-top: none;
+      margin-top: -50px;
+      color: #4db173;
+      font-size: 14px;
+      font-weight: 700px; }
+  .wrapper-register h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #010101;
+    text-align: center;
+    margin: 40px 0 20px 0; }
+  .wrapper-register .register-info {
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    color: #272727;
+    max-width: 511px;
+    padding-bottom: 30px; }
+  .wrapper-register .register-form-info p {
+    font-size: 16px;
+    color: #353535; }
+  .wrapper-register form label {
+    display: block;
+    margin-bottom: 4px; }
+  .wrapper-register form input {
+    border: 2px solid #4db173;
+    height: 36px;
+    border-radius: 0; }
+  .wrapper-register form #label-radio {
+    margin-right: 20px; }
+  .wrapper-register form button.btn {
+    margin-left: 20px; }
+  .wrapper-register form .btn-register {
+    display: flex;
+    justify-content: center; }
+  .wrapper-register form .form-group {
+    margin-bottom: 13px; }
+  .wrapper-register form .user-radio-group label {
+    margin: 0 20px 0 0; }
+  .wrapper-register form .register-checkboxes label {
+    font-size: 12px; }
+  .wrapper-register .hr {
+    border-bottom: 1px solid #a5a2a2;
+    margin: 20px 0; }
+  .wrapper-register .my-tooptip {
+    background-color: #236a3e;
+    padding: 11px 13px;
+    border-radius: 4px;
+    color: #ffffff;
+    margin-top: 28px;
+    font-size: 12px;
+    position: relative; }
+    .wrapper-register .my-tooptip:before {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-right: 16px solid #236a3e;
+      left: -16px; }
 
 /*# sourceMappingURL=index.css.map */
