@@ -167,7 +167,8 @@ header nav {
       header nav ul li:first-child {
         margin-left: 47px; }
       header nav ul li a {
-        color: #ffffff; }
+        color: #ffffff;
+        text-decoration: none; }
         header nav ul li a:hover {
           color: grey;
           text-decoration: none; }

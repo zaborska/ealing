@@ -17,6 +17,8 @@ header {
 
         a {
           color: $main-font;
+          text-decoration: none;
+
           &:hover {
             color: grey;
             text-decoration: none;
