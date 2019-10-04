@@ -3,6 +3,7 @@ footer {
     background: $footer-bg;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     .logo-footer {
       img {
@@ -11,16 +12,15 @@ footer {
     }
     .follow-information {
       display: flex;
-      .border {
+      .my-border {
         height: 57px;
         border-left: 1px solid $footer-border;
-        margin: 40px 53px 31px 0;
       }
       .social {
         color: $main-font;
         font-size: 12px;
         font-weight: 700;
-        margin: 40px 136px 72px 0;
+        margin: 0 69px 0 52px;
         p {
           margin: 5px;
         }
@@ -43,13 +43,15 @@ footer {
     ul {
       display: flex;
       margin: 0;
-      padding: 21px 0 28px 30px;
+      padding: 22px 0;
       li {
         font-size: 12px;
         margin-left: 33px;
 
         a {
           color: $main-font;
+          text-decoration: none;
+
           &:hover {
             color: grey;
             text-decoration: none;

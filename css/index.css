@@ -240,20 +240,20 @@ header nav {
 footer .footer-ealing {
   background: #353535;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: center; }
   footer .footer-ealing .logo-footer img {
     padding: 25px 0 31px 30px; }
   footer .footer-ealing .follow-information {
     display: flex; }
-    footer .footer-ealing .follow-information .border {
+    footer .footer-ealing .follow-information .my-border {
       height: 57px;
-      border-left: 1px solid #707070;
-      margin: 40px 53px 31px 0; }
+      border-left: 1px solid #707070; }
     footer .footer-ealing .follow-information .social {
       color: #ffffff;
       font-size: 12px;
       font-weight: 700;
-      margin: 40px 136px 72px 0; }
+      margin: 0 69px 0 52px; }
       footer .footer-ealing .follow-information .social p {
         margin: 5px; }
       footer .footer-ealing .follow-information .social .social-icons {
@@ -269,12 +269,13 @@ footer nav {
   footer nav ul {
     display: flex;
     margin: 0;
-    padding: 21px 0 28px 30px; }
+    padding: 22px 0; }
     footer nav ul li {
       font-size: 12px;
       margin-left: 33px; }
       footer nav ul li a {
-        color: #ffffff; }
+        color: #ffffff;
+        text-decoration: none; }
         footer nav ul li a:hover {
           color: grey;
           text-decoration: none; }
