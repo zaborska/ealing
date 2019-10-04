@@ -40,13 +40,21 @@
     display: inline-block;
     width: $magic-checkbox-size;
     height: $magic-checkbox-size;
-    content: '';
+    content: "";
     border: 1px solid $magic-border-color;
   }
   &:after {
     position: absolute;
     display: none;
-    content: '';
+    content: "";
+  }
+}
+
+.magic-radio-sm + label,
+.magic-checkbox-sm + label {
+  &:before {
+    width: 15px;
+    height: 15px;
   }
 }
 
@@ -69,7 +77,6 @@
     border-color: $magic-disabled-color;
   }
 }
-
 
 .magic-radio:checked + label,
 .magic-checkbox:checked + label {
