@@ -3,6 +3,13 @@ body {
   font-size: 16px;
   color: #353535; }
 
+a {
+  color: #0076ff;
+  text-decoration: underline;
+  transition: color ease 0.3s; }
+  a:hover {
+    color: inherit; }
+
 @keyframes hover-color {
   from {
     border-color: #c0c0c0; }
@@ -281,9 +288,6 @@ footer nav {
 .wrapper-register .register-form-info p {
   font-size: 16px;
   color: #353535; }
-  .wrapper-register .register-form-info p a {
-    color: #0076ff;
-    text-decoration: underline; }
 
 .wrapper-register form label {
   display: block;

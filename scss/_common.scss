@@ -3,3 +3,13 @@ body {
   font-size: 16px;
   color: $text-color;
 }
+
+a {
+  color: $link-color;
+  text-decoration: underline;
+  transition: color ease 0.3s;
+
+  &:hover {
+    color: inherit;
+  }
+}
