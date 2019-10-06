@@ -460,4 +460,7 @@ footer nav {
     .task-collapse-block .task-collapse .task-collapse-control.collapsed .uncollapsed-control {
       display: none; }
 
+.task-collapse-block .task-collapse-data ul {
+  padding-top: 24px; }
+
 /*# sourceMappingURL=index.css.map */
