@@ -78,6 +78,20 @@ form input.form-control {
   height: 36px;
   border-radius: 0; }
 
+.page-heading {
+  padding: 64px 0 69px;
+  background-image: linear-gradient(to right, #11998e, #008851);
+  color: #ffffff;
+  text-align: center; }
+  .page-heading .page-heading-inner {
+    max-width: 750px;
+    margin: auto; }
+    .page-heading .page-heading-inner h1 {
+      font-size: 40px;
+      color: inherit; }
+    .page-heading .page-heading-inner p {
+      font-size: 20px; }
+
 @keyframes hover-color {
   from {
     border-color: #c0c0c0; }

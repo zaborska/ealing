@@ -99,3 +99,28 @@ form {
     border-radius: 0;
   }
 }
+
+.page-heading {
+  padding: 64px 0 69px;
+  background-image: linear-gradient(
+    to right,
+    $gradient-left-color,
+    $gradient-right-color
+  );
+  color: $main-font;
+  text-align: center;
+
+  .page-heading-inner {
+    max-width: 750px;
+    margin: auto;
+
+    h1 {
+      font-size: 40px;
+      color: inherit;
+    }
+
+    p {
+      font-size: 20px;
+    }
+  }
+}
