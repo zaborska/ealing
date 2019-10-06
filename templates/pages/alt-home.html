@@ -1,0 +1,84 @@
+{% extends "components/base.html" %} {% block content %} {% include
+"components/header.html" %}
+
+<div class="alt-home-page">
+  <form class="alt-search-block">
+    <input type="search" class="form-control" />
+    <button class="btn">
+      <img src="../img/search-icon.svg" alt="search" />
+    </button>
+  </form>
+
+  <h1 class="text-center">What can we help you with?</h1>
+
+  <section class="task-collapse-block">
+    <div class="task-collapse align-items-center">
+      <div class="d-flex">
+        <div class="flex-grow-1">
+          <h3 class="task-title">
+            What <span>task</span> are you looking for?
+          </h3>
+          <p>
+            Pay for it, Report it, Apply for it, Find it, Request it, Book it
+          </p>
+        </div>
+        <div
+          class="task-collapse-control collapsed"
+          data-toggle="collapse"
+          data-target="#collapseExample"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+        >
+          <div class="collapsed-control">+</div>
+          <div class="uncollapsed-control">-</div>
+        </div>
+      </div>
+      <div class="task-collapse-data collapse" id="collapseExample">
+        <ul class="list-unstyled">
+          <li><a href="#" class="link">Apply for it</a></li>
+          <li><a href="#" class="link">Book it</a></li>
+          <li><a href="#" class="link">Find it</a></li>
+          <li><a href="#" class="link">Pay for it</a></li>
+          <li><a href="#" class="link">Report it</a></li>
+          <li><a href="#" class="link">Request it</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="task-collapse align-items-center">
+      <div class="d-flex">
+        <div class="flex-grow-1">
+          <h3 class="task-title">
+            What <span>service</span> are you looking for?
+          </h3>
+          <p>
+            Council tax, housing benefits support
+          </p>
+        </div>
+        <div
+          class="task-collapse-control collapsed"
+          data-toggle="collapse"
+          href="#collapse2Example"
+          role="button"
+          aria-expanded="false"
+          aria-controls="collapse2Example"
+        >
+          <div class="collapsed-control">+</div>
+          <div class="uncollapsed-control">-</div>
+        </div>
+      </div>
+      <div class="task-collapse-data collapse" id="collapse2Example">
+        <ul class="list-unstyled">
+          <li><a href="#" class="link">Apply for it</a></li>
+          <li><a href="#" class="link">Book it</a></li>
+          <li><a href="#" class="link">Find it</a></li>
+          <li><a href="#" class="link">Pay for it</a></li>
+          <li><a href="#" class="link">Report it</a></li>
+          <li><a href="#" class="link">Request it</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</div>
+
+{% include "components/footer.html" %} {% endblock %}

@@ -10,6 +10,11 @@ a {
   a:hover {
     color: inherit; }
 
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #010101; }
+
 .text-small {
   font-size: 12px;
   color: #272727; }
@@ -35,6 +40,43 @@ a {
   background-color: #4db173; }
   .btn-primary:active, .btn-primary:hover, .btn-primary:not(:disabled):not(.disabled):active {
     background-color: #2e6a45; }
+
+.btn-step {
+  display: flex;
+  justify-content: center; }
+  .btn-step button {
+    border: 1px solid #4db173;
+    border-radius: 15px;
+    padding: 66px 37px 15px 37px;
+    border-top: none;
+    margin-top: -50px;
+    color: #4db173;
+    font-size: 14px;
+    font-weight: 700px; }
+
+.text-h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #010101;
+  text-align: center;
+  margin: 40px 0 20px 0; }
+
+.register-info {
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+  color: #272727;
+  max-width: 511px;
+  padding-bottom: 30px; }
+
+form label.control-label {
+  display: block;
+  margin-bottom: 4px; }
+
+form input.form-control {
+  border: 2px solid #4db173;
+  height: 36px;
+  border-radius: 0; }
 
 @keyframes hover-color {
   from {
@@ -107,43 +149,6 @@ a {
 .magic-radio:checked + label:after,
 .magic-checkbox:checked + label:after {
   display: block; }
-
-.btn-step {
-  display: flex;
-  justify-content: center; }
-  .btn-step button {
-    border: 1px solid #4db173;
-    border-radius: 15px;
-    padding: 66px 37px 15px 37px;
-    border-top: none;
-    margin-top: -50px;
-    color: #4db173;
-    font-size: 14px;
-    font-weight: 700px; }
-
-.text-h2 {
-  font-size: 30px;
-  font-weight: 700;
-  color: #010101;
-  text-align: center;
-  margin: 40px 0 20px 0; }
-
-.register-info {
-  text-align: center;
-  margin: auto;
-  font-size: 20px;
-  color: #272727;
-  max-width: 511px;
-  padding-bottom: 30px; }
-
-form label.control-label {
-  display: block;
-  margin-bottom: 4px; }
-
-form input.form-control {
-  border: 2px solid #4db173;
-  height: 36px;
-  border-radius: 0; }
 
 .magic-radio + label:before {
   border-radius: 50%; }
@@ -415,5 +420,44 @@ footer nav {
       .wrapper-sign-in .social-btn.li-social img {
         margin-left: 5px;
         margin-right: 12px; }
+
+.alt-home-page {
+  max-width: 615px;
+  margin: auto;
+  padding: 60px 0 110px 0; }
+  .alt-home-page .alt-search-block {
+    display: flex; }
+    .alt-home-page .alt-search-block input {
+      flex: 1;
+      height: 60px;
+      font-size: 20px; }
+  .alt-home-page h1 {
+    margin: 47px 0 40px; }
+
+.task-collapse-block .task-collapse {
+  border-top: 1px solid #5ab67d;
+  border-bottom: 1px solid #5ab67d;
+  padding: 15px 0;
+  color: #010101;
+  margin-top: -1px; }
+  .task-collapse-block .task-collapse .task-title {
+    font-weight: bold;
+    font-size: 24px; }
+    .task-collapse-block .task-collapse .task-title span {
+      color: #4db173; }
+  .task-collapse-block .task-collapse p {
+    margin: 0; }
+  .task-collapse-block .task-collapse .task-collapse-control {
+    font-size: 40px;
+    color: #4db173;
+    cursor: pointer; }
+    .task-collapse-block .task-collapse .task-collapse-control .collapsed-control {
+      display: none; }
+    .task-collapse-block .task-collapse .task-collapse-control .uncollapsed-control {
+      display: block; }
+    .task-collapse-block .task-collapse .task-collapse-control.collapsed .collapsed-control {
+      display: block; }
+    .task-collapse-block .task-collapse .task-collapse-control.collapsed .uncollapsed-control {
+      display: none; }
 
 /*# sourceMappingURL=index.css.map */

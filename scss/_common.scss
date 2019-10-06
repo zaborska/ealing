@@ -14,6 +14,12 @@ a {
   }
 }
 
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: $color-header-regiister;
+}
+
 .text-small {
   font-size: 12px;
   color: $color-text-register;
@@ -46,5 +52,50 @@ a {
   &:hover,
   &:not(:disabled):not(.disabled):active {
     background-color: darken($btn-bg-color, 20%);
+  }
+}
+
+.btn-step {
+  display: flex;
+  justify-content: center;
+  button {
+    border: 1px solid #4db173;
+    border-radius: 15px;
+    padding: 66px 37px 15px 37px;
+    border-top: none;
+    margin-top: -50px;
+    color: #4db173;
+    font-size: 14px;
+    font-weight: 700px;
+  }
+}
+
+.text-h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #010101;
+  text-align: center;
+  margin: 40px 0 20px 0;
+}
+
+.register-info {
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+  color: $color-text-register;
+  max-width: 511px;
+  padding-bottom: 30px;
+}
+
+form {
+  label.control-label {
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  input.form-control {
+    border: 2px solid $btn-bg-color;
+    height: 36px;
+    border-radius: 0;
   }
 }
