@@ -124,3 +124,26 @@ form {
     }
   }
 }
+
+// TABS
+.nav.nav-tabs {
+  border-color: $footer-border;
+
+  .nav-link {
+    text-decoration: none;
+    background-color: $nav-link-bg;
+    color: $text-color;
+    border-radius: 0;
+    margin: 4px 6px;
+    padding: 8px 33px;
+
+    &.active {
+      padding: 13px 33px;
+      color: $gradient-right-color;
+      border-color: $footer-border $footer-border $main-font;
+      border-radius: 0;
+      background-color: $main-font;
+      margin: 0;
+    }
+  }
+}

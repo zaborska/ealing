@@ -92,6 +92,23 @@ form input.form-control {
     .page-heading .page-heading-inner p {
       font-size: 20px; }
 
+.nav.nav-tabs {
+  border-color: #707070; }
+  .nav.nav-tabs .nav-link {
+    text-decoration: none;
+    background-color: #f3f2f1;
+    color: #353535;
+    border-radius: 0;
+    margin: 4px 6px;
+    padding: 8px 33px; }
+    .nav.nav-tabs .nav-link.active {
+      padding: 13px 33px;
+      color: #008851;
+      border-color: #707070 #707070 #ffffff;
+      border-radius: 0;
+      background-color: #ffffff;
+      margin: 0; }
+
 @keyframes hover-color {
   from {
     border-color: #c0c0c0; }
@@ -501,5 +518,8 @@ footer nav {
 
 .back-btn {
   padding: 9px 60px; }
+
+.task-tab {
+  margin-top: -7px; }
 
 /*# sourceMappingURL=index.css.map */
