@@ -477,4 +477,26 @@ footer nav {
 .task-collapse-block .task-collapse-data ul {
   padding-top: 24px; }
 
+.service {
+  margin-bottom: 40px; }
+  .service h2 {
+    color: #010101;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 2px solid #4db173;
+    padding-bottom: 15px;
+    margin-bottom: 15px; }
+  .service .service-links {
+    color: #353535;
+    font-size: 14px; }
+    .service .service-links li {
+      border-bottom: 1px dotted #353535;
+      padding-bottom: 12px;
+      margin-bottom: 12px; }
+      .service .service-links li a {
+        color: #353535;
+        text-decoration: none; }
+        .service .service-links li a:hover {
+          color: #4db173; }
+
 /*# sourceMappingURL=index.css.map */
