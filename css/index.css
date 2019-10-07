@@ -108,6 +108,11 @@ form input.form-control {
       background-color: #ffffff;
       margin: 0; }
 
+.tab-content {
+  border: 1px solid #707070;
+  margin-top: -1px;
+  padding: 30px; }
+
 @keyframes hover-color {
   from {
     border-color: #c0c0c0; }
@@ -471,6 +476,11 @@ footer nav {
     font-weight: bold;
     border-bottom: 2px solid #4db173;
     padding-bottom: 15px;
+    margin-bottom: 15px; }
+  .service h3 {
+    color: #010101;
+    font-size: 24px;
+    font-weight: bold;
     margin-bottom: 15px; }
   .service .service-links {
     color: #353535;
