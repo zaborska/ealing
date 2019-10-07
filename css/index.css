@@ -526,22 +526,22 @@ footer nav {
 .reset-password-for-my-account .text-h2 {
   margin: 40px 0 60px 0px; }
 
-.reset-password-for-my-account .form-step {
-  margin-bottom: 40px; }
-
-.reset-password-for-my-account .my-tooptip-two {
-  background-color: #236a3e;
-  padding: 11px 13px;
-  border-radius: 4px;
-  color: #ffffff;
-  margin-top: 28px;
-  font-size: 12px;
-  position: relative;
-  margin-bottom: 22px;
-  margin-top: 10px; }
-
-.reset-password-for-my-account p {
-  color: #272727;
-  font-size: 12px; }
+.reset-password-for-my-account .step {
+  margin-bottom: 105px; }
+  .reset-password-for-my-account .step .form-step {
+    margin-bottom: 40px; }
+  .reset-password-for-my-account .step .my-tooptip-two {
+    background-color: #236a3e;
+    padding: 11px 13px;
+    border-radius: 4px;
+    color: #ffffff;
+    margin-top: 28px;
+    font-size: 12px;
+    position: relative;
+    margin-bottom: 22px;
+    margin-top: 10px; }
+  .reset-password-for-my-account .step p {
+    color: #272727;
+    font-size: 12px; }
 
 /*# sourceMappingURL=index.css.map */
