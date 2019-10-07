@@ -1,0 +1,47 @@
+.my-tooltip {
+  padding: 11px 13px;
+  border-radius: 4px;
+  color: $main-font;
+  margin-top: 28px;
+  font-size: 12px;
+  position: relative;
+}
+
+.my-tooltip-green {
+  background-color: $btn-bg-dark;
+}
+.my-tooltip-red {
+  background-color: $tooltip-bg-red;
+}
+.my-tooltip-blue {
+  background-color: $link-color;
+}
+
+.my-tooltip-arrow {
+  &:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+
+    border-right: 16px solid;
+    left: -16px;
+  }
+}
+.my-tooltip-arrow-green {
+  &:before {
+    border-right: 16px solid $btn-bg-dark;
+  }
+}
+.my-tooltip-arrow-red {
+  &:before {
+    border-right: 16px solid $tooltip-bg-red;
+  }
+}
+.my-tooltip-arrow-blue {
+  &:before {
+    border-right: 16px solid $link-color;
+  }
+}

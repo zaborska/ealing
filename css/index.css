@@ -92,24 +92,6 @@ form input.form-control {
     .page-heading .page-heading-inner p {
       font-size: 20px; }
 
-.my-tooptip {
-  background-color: #236a3e;
-  padding: 11px 13px;
-  border-radius: 4px;
-  color: #ffffff;
-  margin-top: 28px;
-  font-size: 12px;
-  position: relative; }
-  .my-tooptip:before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-right: 16px solid #236a3e;
-    left: -16px; }
-
 .step {
   margin-bottom: 105px; }
   .step .form-step {
@@ -532,44 +514,47 @@ footer nav {
 .task-tab {
   margin-top: -7px; }
 
-.reset-password-for-my-account .text-h2 {
+.forgot-password-page .text-h2 {
   margin: 40px 0 60px 0px; }
 
-.reset-password-for-my-account .my-tooptip-two {
-  background-color: #236a3e;
-  padding: 11px 13px;
-  border-radius: 4px;
-  color: #ffffff;
-  margin-top: 28px;
-  font-size: 12px;
-  position: relative;
-  margin-bottom: 22px;
-  margin-top: 10px; }
-
-.reset-password-for-my-account .step-p {
+.forgot-password-page .step-p {
   color: #272727;
   font-size: 12px; }
 
-.one-eror-page .text-h2 {
-  margin: 40px 0 60px 0px; }
-
-.one-eror-page .my-tooptip-red {
-  background-color: #c10000;
+.my-tooltip {
   padding: 11px 13px;
   border-radius: 4px;
   color: #ffffff;
   margin-top: 28px;
   font-size: 12px;
-  position: relative;
-  margin-bottom: 20px; }
-  .one-eror-page .my-tooptip-red:before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-right: 16px solid #c10000;
-    left: -16px; }
+  position: relative; }
+
+.my-tooltip-green {
+  background-color: #236a3e; }
+
+.my-tooltip-red {
+  background-color: #c10000; }
+
+.my-tooltip-blue {
+  background-color: #0076ff; }
+
+.my-tooltip-arrow:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 16px solid;
+  left: -16px; }
+
+.my-tooltip-arrow-green:before {
+  border-right: 16px solid #236a3e; }
+
+.my-tooltip-arrow-red:before {
+  border-right: 16px solid #c10000; }
+
+.my-tooltip-arrow-blue:before {
+  border-right: 16px solid #0076ff; }
 
 /*# sourceMappingURL=index.css.map */
