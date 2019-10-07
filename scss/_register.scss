@@ -68,26 +68,4 @@
     border-bottom: 1px solid $hr-color;
     margin: 20px 0;
   }
-
-  .my-tooptip {
-    background-color: $btn-bg-dark;
-    padding: 11px 13px;
-    border-radius: 4px;
-    color: $main-font;
-    margin-top: 28px;
-    font-size: 12px;
-    position: relative;
-
-    &:before {
-      content: "";
-      position: absolute;
-      width: 0;
-      height: 0;
-      border-top: 10px solid transparent;
-      border-bottom: 10px solid transparent;
-
-      border-right: 16px solid $btn-bg-dark;
-      left: -16px;
-    }
-  }
 }
