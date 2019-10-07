@@ -147,6 +147,17 @@ form {
   }
 }
 
+.step {
+  margin-bottom: 105px;
+  .form-step {
+    margin-bottom: 40px;
+  }
+}
+
+.step-p {
+  color: $color-text-register;
+  font-size: 12px;
+}
 // TABS
 .nav.nav-tabs {
   border-color: $footer-border;
