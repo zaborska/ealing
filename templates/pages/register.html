@@ -1,9 +1,9 @@
 {% extends "components/base.html" %} {% block content %}
 <div class="wrapper-register">
-  <div class="btn-step">
-    <button>
+  <div class="text-center">
+    <div class="btn-step">
       Step 1 of 2
-    </button>
+    </div>
   </div>
 
   <h2 class="text-h2">Register for My Account</h2>
@@ -24,10 +24,12 @@
           <label class="control-label" for="email">Email address</label>
           <div class="d-flex ">
             <input type="email" id="email" class="flex-grow-1 form-control" />
-            <button class="btn">Verify email</button>
+            <button class="btn text-nowrap">Verify email</button>
           </div>
         </div>
         <div class="col-md-4">
+          <label></label>
+
           <div
             class="my-tooltip my-tooltip-green my-tooltip-arrow my-tooltip-arrow-green"
           >

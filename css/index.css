@@ -22,11 +22,10 @@ h1 {
 .btn {
   background: #4db173;
   color: #ffffff;
-  padding: 5px 29px;
+  padding: 8px 29px;
   font-size: 14px;
   border: 0;
-  border-radius: 0;
-  white-space: nowrap; }
+  border-radius: 0; }
 
 .btn-lg {
   font-size: 20px;
@@ -43,16 +42,16 @@ h1 {
 
 .btn-step {
   display: flex;
-  justify-content: center; }
-  .btn-step button {
-    border: 1px solid #4db173;
-    border-radius: 15px;
-    padding: 66px 37px 15px 37px;
-    border-top: none;
-    margin-top: -50px;
-    color: #4db173;
-    font-size: 14px;
-    font-weight: 700px; }
+  justify-content: center;
+  border: 1px solid #4db173;
+  border-radius: 24px;
+  padding: 66px 37px 15px 37px;
+  border-top: none;
+  margin-top: -50px;
+  color: #4db173;
+  font-size: 14px;
+  font-weight: 700;
+  display: inline-block; }
 
 .text-h2 {
   font-size: 30px;
@@ -91,15 +90,6 @@ form input.form-control {
       color: inherit; }
     .page-heading .page-heading-inner p {
       font-size: 20px; }
-
-.step {
-  margin-bottom: 105px; }
-  .step .form-step {
-    margin-bottom: 40px; }
-
-.step-p {
-  color: #272727;
-  font-size: 12px; }
 
 .nav.nav-tabs {
   border-color: #707070; }
@@ -368,23 +358,10 @@ footer nav {
 
 .wrapper-register {
   padding-bottom: 100px; }
-  .wrapper-register .btn-step {
-    display: flex;
-    justify-content: center; }
-    .wrapper-register .btn-step button {
-      border: 1px solid #4db173;
-      border-radius: 15px;
-      padding: 66px 37px 15px 37px;
-      border-top: none;
-      margin-top: -50px;
-      color: #4db173;
-      font-size: 14px;
-      font-weight: 700px; }
   .wrapper-register .register-form-info p {
     font-size: 16px;
     color: #353535; }
   .wrapper-register form label {
-    display: block;
     margin-bottom: 4px; }
   .wrapper-register form input {
     border: 2px solid #4db173;
@@ -521,11 +498,23 @@ footer nav {
   color: #272727;
   font-size: 12px; }
 
+.forgot-password-page .step {
+  margin-bottom: 105px; }
+
+.forgot-password-page .step-p {
+  color: #272727;
+  font-size: 12px; }
+
+.forgot-password-page .send-btn {
+  font-weight: normal;
+  margin-top: 24px;
+  font-size: 16px; }
+
 .my-tooltip {
   padding: 11px 13px;
   border-radius: 4px;
   color: #ffffff;
-  margin-top: 28px;
+  margin-bottom: 10px;
   font-size: 12px;
   position: relative; }
 
