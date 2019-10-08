@@ -28,3 +28,19 @@ header {
     }
   }
 }
+
+@media only screen and (max-width: $md) {
+  header {
+    nav {
+      ul {
+        display: block;
+        li,
+        li:first-child {
+          margin: 0;
+          padding: 7px 25px;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+}

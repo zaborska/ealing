@@ -260,6 +260,15 @@ header nav {
           color: grey;
           text-decoration: none; }
 
+@media only screen and (max-width: 768px) {
+  header nav ul {
+    display: block; }
+    header nav ul li,
+    header nav ul li:first-child {
+      margin: 0;
+      padding: 7px 25px;
+      line-height: 30px; } }
+
 .search-block {
   background-image: linear-gradient(to right, #11998e, #008851);
   padding: 48px 0 68px 0; }
@@ -368,6 +377,14 @@ footer nav {
         footer nav ul li a:hover {
           color: grey;
           text-decoration: none; }
+
+@media only screen and (max-width: 768px) {
+  footer nav ul {
+    display: block; }
+    footer nav ul li {
+      margin: 0;
+      padding: 7px 25px;
+      line-height: 30px; } }
 
 .wrapper-register {
   padding-bottom: 100px; }
