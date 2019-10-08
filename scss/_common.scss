@@ -158,3 +158,9 @@ form {
 .container {
   max-width: 810px;
 }
+
+@media only screen and (max-width: $md) {
+  .btn {
+    margin: 5px 0 !important;
+  }
+}
