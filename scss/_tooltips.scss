@@ -46,3 +46,35 @@
     border-right: 16px solid $link-color;
   }
 }
+
+@media only screen and (max-width: $md) {
+  .my-tooltip-arrow {
+    &:before {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+
+      border-bottom: 16px solid;
+      left: 15px;
+      top: -26px;
+    }
+  }
+  .my-tooltip-arrow-green {
+    &:before {
+      border-bottom: 16px solid $btn-bg-dark;
+    }
+  }
+  .my-tooltip-arrow-red {
+    &:before {
+      border-bottom: 16px solid $tooltip-bg-red;
+    }
+  }
+  .my-tooltip-arrow-blue {
+    &:before {
+      border-bottom: 16px solid $link-color;
+    }
+  }
+}

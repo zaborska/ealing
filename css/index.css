@@ -118,7 +118,7 @@ form input.form-control {
 
 @media only screen and (max-width: 768px) {
   .btn {
-    margin: 5px 0 !important; } }
+    margin: 5px 0; } }
 
 @keyframes hover-color {
   from {
@@ -382,8 +382,8 @@ footer nav {
     border-radius: 0; }
   .wrapper-register form #label-radio {
     margin-right: 20px; }
-  .wrapper-register form button.btn {
-    margin-left: 20px; }
+  .wrapper-register form button.btn.verify-btn {
+    margin: 0 0 0 20px; }
   .wrapper-register form .btn-register {
     display: flex;
     justify-content: center; }
@@ -570,5 +570,23 @@ footer nav {
 
 .my-tooltip-arrow-blue:before {
   border-right: 16px solid #0076ff; }
+
+@media only screen and (max-width: 768px) {
+  .my-tooltip-arrow:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 16px solid;
+    left: 15px;
+    top: -26px; }
+  .my-tooltip-arrow-green:before {
+    border-bottom: 16px solid #236a3e; }
+  .my-tooltip-arrow-red:before {
+    border-bottom: 16px solid #c10000; }
+  .my-tooltip-arrow-blue:before {
+    border-bottom: 16px solid #0076ff; } }
 
 /*# sourceMappingURL=index.css.map */
