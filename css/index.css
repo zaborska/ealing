@@ -292,6 +292,7 @@ header nav {
     font-weight: 700;
     margin-bottom: 39px; }
   .task-block .task {
+    padding: 10px;
     text-decoration: none;
     height: 202px;
     display: flex;
